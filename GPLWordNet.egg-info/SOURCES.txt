@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/GPLWordNet/__init__.py
+src/GPLWordNet/example.py
+src/GPLWordNet.egg-info/PKG-INFO
+src/GPLWordNet.egg-info/SOURCES.txt
+src/GPLWordNet.egg-info/dependency_links.txt
+src/GPLWordNet.egg-info/requires.txt
+src/GPLWordNet.egg-info/top_level.txt
+src/tests/test1.py
