@@ -14,7 +14,7 @@ This tool is an extended Python version of [Nicolas et al.'s dictionary-generati
 2. example.antonyms_expand()
 
 | Function Name | Features |
-|:--:|:-----|
+|:--|:-----|
 |full_expand()|find target words' antonyms, synsets, adjectives, derivational words, and hyponyms|
 |antonyms_expand()|find target words' antonyms|
 
