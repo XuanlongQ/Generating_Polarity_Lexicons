@@ -10,7 +10,7 @@ from GPLWordNet import example
 # This function is used for finding target words' antonyms, synsets, adjectives, derivational words, and hyponyms
 data1 = [{'term': 'good', 'PoS': 'ADJECTIVE'}]
 print(example.full_expand(data1))
-print(example.full_expand(data1,syns=True))
+print(example.full_expand(data1,antonym=False,syns=True))
 
 
 data2 = [{'term': 'good', 'PoS': 'ADJECTIVE','sense': 1}]
