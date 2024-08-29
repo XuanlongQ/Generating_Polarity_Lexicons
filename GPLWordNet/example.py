@@ -207,8 +207,8 @@ def full_expand(datax, antonym=True, syns=False):
         if 'PoS' not in entry or entry['PoS'].upper() not in valid_pos:
             raise ValueError("Each dictionary must contain a 'PoS' key with value 'NOUN', 'VERB', or 'ADJECTIVE'.")
         
-        if 'sense' in entry and not (isinstance(entry['sense'], int) and entry['sense'] > 0):
-            raise ValueError("The 'sense' key, if present, must have a positive integer value.")
+        if 'sense' in entry and not isinstance(entry['sense'], bool):
+            raise ValueError("The 'sense' key, if present, must be a boolean value.")
     
     # main logistic
     WL = [synset for d in datax for synset in (get_syns(d['term'], d['PoS'], d.get('sense')) or [])]
