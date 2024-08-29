@@ -7,7 +7,11 @@ It provides two basic function,
 - Full expansion: This function is used to find target words' antonyms, synsets, adjectives, derivational words, and hyponyms.
 - Antonyms expansion - This function is used for finding target words' antonyms.
 
-This tool is an extended Python version of [Nicolas et al.'s dictionary-generating approach](https://gandalfnicolas.github.io/SADCAT/). As their team only provides the R version, it is quite hard to use. Therefore, I provide this Python version, and you can absolutely improve and self-define this package's function by git my code from [my GitHub](https://github.com/XuanlongQ/Generating_Polarity_Lexicons/tree/master).
+This tool is an extended Python version of [Nicolas et al.'s dictionary-generating approach](https://gandalfnicolas.github.io/SADCAT/). As their team only provides the R version, it is quite hard to use. Therefore, I provide this Python version, and you can absolutely improve and self-define this package's function by git my code from [my GitHub](https://github.com/XuanlongQ/Generating_Polarity_Lexicons/tree/master). 
+
+**You can also install this package directly from [Pypi-GPLWordNet](https://pypi.org/project/GPLWordNet/).**
+
+****
 
 ## Function
 1. example.full_expand()
